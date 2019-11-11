@@ -9,6 +9,10 @@ This script generates a pie chart of `VISCODE` counts from Registry data and gen
 - CSV results are filtered to include only one `VISCODE`, include only one `SVDOSE`, and exclude one `ECSDSTXT`
 - CSV default filters to where `VISCODE` is 'w02', `SVDOSE` is 'Y', and `ECSDSTXT` is not 280
 
+### Assumptions for Challenge
+- Input CSVs are static and therefore filenames are hardcoded here
+- `VISCODE` and `SVDOSE` are strings, `ECSDSTXT` is numeric, and therefore datatypes are not validated
+
 ## Setup
 First clone the repository. In terminal run the following.
 ```sh
